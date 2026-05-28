@@ -42,7 +42,7 @@ remotes::install_github("sqjin/CellChat")
 BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats', 'limma', 'lme4', 'S4Vectors', 'SingleCellExperiment', 'SummarizedExperiment', 'batchelor', 'Matrix.utils', 'coolwarm'))
 remotes::install_github('cole-trapnell-lab/monocle3')
 
----
+```
 
 ### Typical Installation Time
 
