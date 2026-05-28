@@ -43,7 +43,8 @@ BiocManager::install(c('BiocGenerics', 'DelayedArray', 'DelayedMatrixStats', 'li
 remotes::install_github('cole-trapnell-lab/monocle3')
 
 ### Typical Installation Time
-* **Standard Desktop (for Demo dependencies):** **~20–30 minutes** to install standard CRAN/Bioconductor dependencies.
+
+- **Standard Desktop (for Demo dependencies)**: ~20–30 minutes to install standard CRAN/Bioconductor dependencies.
 
 ---
 
@@ -52,23 +53,15 @@ remotes::install_github('cole-trapnell-lab/monocle3')
 This demo uses an optimized subset of the immune cells (`demo_immune_cells.rds`) to quickly reproduce key figures and verify the pipeline execution.
 
 ### Instructions to run
-1. **Download the demo data:** Place `demo_immune_cells.rds` in your working directory (or adjust the path in the script).
-2. **Run the demo script:**
-   * *Option A (Within R/RStudio console):*
-     ```R
-     source("demo_main.R")
-     ```
-   * *Option B (From the terminal/command line):*
-     ```bash
-     Rscript demo_main.R
-     ```
 
-### Expected Output
-Upon successful execution, the script will generate the following figures:
-* **UMAP plot:** A 2D scatter plot demonstrating 6 major immune cell types (*B cells, T cells, NK cells, DCs, Macrophages/Monocytes, and Neutrophils*), with each type represented by 100 downsampled cells.
-* **Violin plot:** Three QC quality panels showing the clear distribution of gene counts, UMI counts, and mitochondrial gene percentage.
-* **FeaturePlot:** Four spatially-resolved expression maps of canonical markers (`Cd79a`, `Cd3d`, `Cd68`, `S100a8`) to highlight cell-type specificity.
-* **DotPlot (Optional):** Summarized expression level and percentage of the four key markers across all identified cell lineages.
+1. **Download the demo data**  
+   Place `demo_immune_cells.rds` in your working directory (or adjust the path in the script).
+
+2. **Run the demo script**  
+
+   - **Option A (Within R/RStudio console):**  
+     ```r
+     source("demo_main.R")
 
 ### Expected Runtime
 * **~ Less than 20 seconds** on a typical desktop computer.
