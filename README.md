@@ -74,4 +74,4 @@ Upon successful execution, the script will generate the following figures:
 * **DotPlot (Optional):** Summarized expression level and percentage of the four key markers across all identified cell lineages.
 
 ### Expected Runtime
-* **~ Less than 20 seconds** on a typical desktop computer.
+- **~ Less than 20 seconds** on a typical desktop computer.
